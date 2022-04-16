@@ -5,7 +5,7 @@
 from starkware.cairo.common.cairo_builtins import HashBuiltin, SignatureBuiltin
 from starkware.cairo.common.uint256 import Uint256
 
-from openzeppelin.token.erc721.library import (
+from contracts.openzeppelin.token.erc721.library import (
     ERC721_name, ERC721_symbol, ERC721_balanceOf, ERC721_ownerOf, ERC721_getApproved,
     ERC721_isApprovedForAll, ERC721_tokenURI, ERC721_initializer, ERC721_approve,
     ERC721_setApprovalForAll, ERC721_transferFrom, ERC721_safeTransferFrom, ERC721_mint,
